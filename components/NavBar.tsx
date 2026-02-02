@@ -24,9 +24,9 @@ const NavBar = () => {
 
         <Link href={"/issues"}>
           {pathName === "/issues" ? (
-            <p className="text-rose-600">Isuues</p>
+            <p className="text-rose-600">Issues</p>
           ) : (
-            <p className="hover:text-rose-600">Isuues</p>
+            <p className="hover:text-rose-600">Issues</p>
           )}
         </Link>
       </div>
